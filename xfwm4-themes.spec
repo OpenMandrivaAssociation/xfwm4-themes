@@ -1,20 +1,21 @@
 Summary:	Additional themes for Xfwm
-Name:		xfwm-themes
+Name:		xfwm4-themes
 Version:	4.4.1
-Release:	%mkrel 2
-License:	GPL
+Release:	%mkrel 3
+License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://www.xfce.org
-Source0:	xfwm4-themes-%{version}.tar.bz2
-Requires:	xfwm
+Source0:	%{name}-%{version}.tar.bz2
+Requires:	xfwm4
 BuildArch:	noarch
+Obsoletes:	xfwm-themes
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A set of additional themes for the Xfwm window manager.
 
 %prep
-%setup -qn xfwm4-themes-%{version}
+%setup -q
 
 %build
 %configure2_5x
