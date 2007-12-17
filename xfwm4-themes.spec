@@ -9,7 +9,6 @@ Source0:	%{name}-%{version}.tar.bz2
 Requires:	xfwm4 >= %{version}
 BuildArch:	noarch
 Obsoletes:	xfwm-themes
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A set of additional themes for the Xfwm window manager.
