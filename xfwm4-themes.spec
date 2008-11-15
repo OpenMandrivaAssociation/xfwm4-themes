@@ -1,6 +1,6 @@
 Summary:	Additional themes for Xfwm
 Name:		xfwm4-themes
-Version:	4.5.91
+Version:	4.5.92
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
