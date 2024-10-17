@@ -4,7 +4,7 @@ Version:	4.10.0
 Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://www.xfce.org
+URL:		https://www.xfce.org
 Source0:	http://www.xfce.org/archive/xfce-%{version}/src/%{name}-%{version}.tar.bz2
 Requires:	xfwm4 >= %{version}
 BuildArch:	noarch
