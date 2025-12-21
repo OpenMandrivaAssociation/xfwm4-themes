@@ -10,6 +10,11 @@ Requires:	xfwm4 >= %{version}
 BuildArch:	noarch
 Obsoletes:	xfwm-themes
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 A set of additional themes for the Xfwm window manager.
 
